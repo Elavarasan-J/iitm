@@ -1,0 +1,422 @@
+footer
+{
+	border-top: 2px solid #333;
+}
+.footer-picto-wrapper
+{
+	text-transform: uppercase;
+	margin-left: -10px;
+	margin-right: -10px;
+	>div
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+.footer-picto
+{
+	color: #000;
+	display: block;
+	line-height: 18px;
+	padding: 15px 0;
+	font-size: 11px;
+	>p
+	{
+		margin: 0 0 0 7px;
+	}
+	&:hover
+	{
+		color: #000;
+		.fa
+		{
+			color: #111;
+		}
+	}
+	.fa
+	{
+		font-size: 24px;
+		color: #D9D9D9;
+		@include transition(all 0.3s ease-out);
+	}
+	>*
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.footer-service
+{
+	padding:10px 0;
+	border-width: 1px 0 1px;
+	border-style: solid;
+	border-color: #d9d9d9;
+	 
+	.newsletter-subs
+	{
+		padding: 4px;
+		.newsletter-subs-inner
+		{
+			padding: 10px;
+			>*
+			{
+				font-size: 10px;
+				margin: 5px 0;
+			}
+			>form
+			{
+				margin: 10px 0;
+			}
+		}
+	}
+}
+.footer-service-cb-container
+{
+	display: block;	
+	&:hover
+	{
+		>div
+		{
+			&.footer-visa
+			{
+				background-position: -234px -28px;
+			}
+			&.footer-mc
+			{
+				background-position: -78px -28px;
+			}
+			&.footer-amex
+			{
+				background-position: 0 -28px;
+			}
+			&.footer-maestro
+			{
+				background-position: -273px -28px;
+			}
+			&.footer-jcb
+			{
+				background-position: -546px -28px;
+			}
+			&.footer-paypal
+			{
+				background-position: -156px -28px;
+			}
+		}
+	}
+	>div
+	{
+		background: url("../images/credit-card-full.png") no-repeat center center;
+		display: inline-block;
+		width: 39px;
+		height: 28px;
+		text-indent: -9999px;
+		margin: 5px;
+		&.footer-visa
+		{
+			background-position: -234px 0;
+		}
+		&.footer-mc
+		{
+			background-position: -78px 0;
+		}
+		&.footer-amex
+		{
+			background-position: 0 0;
+		}
+		&.footer-maestro
+		{
+			background-position: -273px 0;
+		}
+		&.footer-jcb
+		{
+			background-position: -546px 0;
+		}
+		&.footer-paypal
+		{
+			background-position: -156px 0;
+		}
+		
+	}
+}
+.footer-service-all
+{
+	text-align: center;
+	display: block;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline;
+	margin: 5px 0;
+}
+.footer-serve-inner
+{
+	padding: 10px 0;
+	>h5
+	{
+		text-transform: uppercase;
+		font-size: 11px;
+		line-height: 18px;
+		margin: 0 0 3px;
+	}
+	p
+	{
+		font-size: 11px;
+		line-height: 17px;
+		color: #acacac;
+		>a
+		{
+			color: #acacac;
+			&:hover
+			{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.footer-list
+{
+	list-style: none;
+	>li
+	{
+		padding: 2px 0;
+		>a
+		{
+			font-size: 11px;
+			color:#acacac;
+			line-height: 15px;
+			&:hover
+			{
+				color: #808080;
+			}
+		}
+	}
+}
+.pr50
+{
+	padding-right: 50px;
+}
+.follow-footer
+{
+	padding: 8px 0;
+	border-bottom: 1px solid #d9d9d9;
+}
+.center-follow-footer
+{
+	text-align: center;
+	>*
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.social-list
+{
+	list-style: none;
+	margin: 0 0 0 15px;
+	>li
+	{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 8px 15px;
+		>a
+		{
+			background: url("../images/picto-social.png") no-repeat center center;
+			display: block;
+			width: 22px;
+			height: 22px;
+			text-indent: -9999px;
+			&.pin
+			{
+				background-position: 0 0;
+			}
+			&.instagram
+			{
+				background-position: -132px 0;
+			}
+			&.twitter
+			{
+				background-position: -44px 0;
+			}
+			&.fb
+			{
+				background-position: -22px 0;
+			}
+			&.gplus	
+			{
+				background-position: -66px 0;
+			}
+			&.vk
+			{
+				background-position: -88px 0;
+			}
+			&.weibo
+			{
+				background-position: -110px 0;
+			}
+			&:hover
+			{
+				&.pin
+				{
+					background-position: 0 -22px;
+				}
+				&.instagram
+				{
+					background-position: -132px -22px;
+				}
+				&.twitter
+				{
+					background-position: -44px -22px;
+				}
+				&.fb
+				{
+					background-position: -22px -22px;
+				}
+				&.gplus	
+				{
+					background-position: -66px -22px;
+				}
+				&.vk
+				{
+					background-position: -88px -22px;
+				}
+				&.weibo
+				{
+					background-position: -110px -22px;
+				}
+			}
+		}
+	}
+}
+.footer-press
+{
+	margin: 5px 0;
+	>a
+	{
+		background: url("../images/presse.jpg") no-repeat center top;
+		display: block;
+		height: 110px;
+		width: 262px;
+		background-position: 0 0;
+		&:hover
+		{
+			background-position:0 -110px;
+		}
+	}
+}
+.footer-copyright
+{
+	border-top: 1px solid #f2f2f2;
+    color: #acacac;
+    display: block;
+    font-size: 11px;
+    padding: 8px 0;
+    text-align: center;
+}
+// Jcarousel
+.footer-jcarousel
+{
+	margin: auto;
+    position: relative;
+	.jcarousel
+	{
+		li
+		{
+			margin: 10px 20px !important;
+		}
+	}
+}
+.jcarousel-control-prev,.jcarousel-control-next
+{
+	>img
+	{
+		max-height: 100%;
+	}
+}
+// Mobile footer service
+.mobile-footer-service
+{
+	padding: 15px 0;
+	margin-bottom: 15px;
+}
+.mob-service-accordian
+{
+	list-style: none;
+	margin-bottom: 0;
+	>li
+	{
+		border: 1px solid #cecece;
+		&+li
+		{
+			border-top: 0;
+		}
+		>a
+		{
+			background: #f8f8f8;
+			display: block;
+			padding:8px 10px;
+			color: #000;
+			border-bottom: 1px solid #ececec;
+			text-transform: uppercase;
+			&.collapsed
+			{
+				border-bottom: 0;
+			}
+		}
+	}
+}
+.panel-ct
+{
+	padding: 15px;
+}
+.service-list
+{
+	list-style: none;
+	>li
+	{
+		>a
+		{
+			color: #777;
+			display: block;
+			font-size: 13px;
+			line-height: 35px;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+			&:hover
+			{
+				color: #cc4c4b;
+			}
+		}
+	}
+}
+.scrolltop
+{
+	background-image: url("../images/flechetop.png");
+    bottom: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 60px;
+    margin-left: 520px;
+    opacity: 0;
+    position: fixed;
+    right: 3%;
+    text-align: center;
+    width: 60px;
+    z-index: 50;
+	@include transition(opacity 0.3s ease-in);
+	&.show
+	{
+		opacity: 0.5;
+		&:hover
+		{
+			opacity: 0.7;
+		}
+	}
+}
+.jcarousel-control-prev
+{
+	left: 15px;
+}
+.jcarousel-control-next
+{
+	right: 15px;
+}
